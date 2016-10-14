@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{21A3FC3B-4B98-4863-86D1-C7022EFCA0E8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Core", "1-Core", "{63B6438E-5447-49C9-BFE8-06D6DB832C19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{CB523778-641D-4F85-A50E-B7D1E67B0579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Waes.ScalableWeb.Domain", "App.Template.Domain\App.Waes.ScalableWeb.Domain.csproj", "{0953BE64-29F6-42A0-B8E4-DA147E0187B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Application", "3-Application", "{288DC515-3215-4F81-954B-08C69998F208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Waes.ScalableWeb.Application", "App.Waes.ScalableWeb.ApplicationSvc\App.Waes.ScalableWeb.Application.csproj", "{6A7845BB-1F45-4DA7-AC4C-3D6DDF965A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Waes.ScalableWeb.Core", "App.Waes.ScalableWeb.Core\App.Waes.ScalableWeb.Core.csproj", "{D93A1639-31BC-44C5-8E7E-F528D481C45C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Test", "5-Test", "{36C4FB48-86F0-4B1F-A146-E782BE27D8ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{AF4844AD-82D4-4049-80A8-AE8D49494DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Waes.ScalableWeb.Infrastructure", "App.Waes.ScalableWeb.Infrastructure\App.Waes.ScalableWeb.Infrastructure.csproj", "{22DD806C-D3EA-4BA4-8013-9387CAC9025B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-EntryPoints", "6-EntryPoints", "{61121EB9-E33C-42BA-B37E-107E95787958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Waes.ScalableWeb.UnitTest", "App.Waes.ScalableWeb.UnitTest\App.Waes.ScalableWeb.UnitTest.csproj", "{4E3E5DBE-6F9B-45D7-B8B6-433759DD330A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Waes.ScalableWeb.IntegrationTest", "App.Waes.ScalableWeb.IntegrationTest\App.Waes.ScalableWeb.IntegrationTest.csproj", "{659F24BF-220A-43FF-8F47-FED4E33E85A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Waes.ScalableWeb.WebApi", "App.Waes.ScalableWeb.WebApi\App.Waes.ScalableWeb.WebApi.csproj", "{82AF83E1-482C-4BA8-9794-350128841991}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0953BE64-29F6-42A0-B8E4-DA147E0187B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0953BE64-29F6-42A0-B8E4-DA147E0187B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0953BE64-29F6-42A0-B8E4-DA147E0187B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0953BE64-29F6-42A0-B8E4-DA147E0187B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7845BB-1F45-4DA7-AC4C-3D6DDF965A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7845BB-1F45-4DA7-AC4C-3D6DDF965A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7845BB-1F45-4DA7-AC4C-3D6DDF965A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7845BB-1F45-4DA7-AC4C-3D6DDF965A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93A1639-31BC-44C5-8E7E-F528D481C45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93A1639-31BC-44C5-8E7E-F528D481C45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93A1639-31BC-44C5-8E7E-F528D481C45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93A1639-31BC-44C5-8E7E-F528D481C45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DD806C-D3EA-4BA4-8013-9387CAC9025B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DD806C-D3EA-4BA4-8013-9387CAC9025B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DD806C-D3EA-4BA4-8013-9387CAC9025B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DD806C-D3EA-4BA4-8013-9387CAC9025B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3E5DBE-6F9B-45D7-B8B6-433759DD330A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3E5DBE-6F9B-45D7-B8B6-433759DD330A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3E5DBE-6F9B-45D7-B8B6-433759DD330A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3E5DBE-6F9B-45D7-B8B6-433759DD330A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659F24BF-220A-43FF-8F47-FED4E33E85A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659F24BF-220A-43FF-8F47-FED4E33E85A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659F24BF-220A-43FF-8F47-FED4E33E85A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659F24BF-220A-43FF-8F47-FED4E33E85A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AF83E1-482C-4BA8-9794-350128841991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AF83E1-482C-4BA8-9794-350128841991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AF83E1-482C-4BA8-9794-350128841991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AF83E1-482C-4BA8-9794-350128841991}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0953BE64-29F6-42A0-B8E4-DA147E0187B9} = {CB523778-641D-4F85-A50E-B7D1E67B0579}
+		{6A7845BB-1F45-4DA7-AC4C-3D6DDF965A42} = {288DC515-3215-4F81-954B-08C69998F208}
+		{D93A1639-31BC-44C5-8E7E-F528D481C45C} = {63B6438E-5447-49C9-BFE8-06D6DB832C19}
+		{22DD806C-D3EA-4BA4-8013-9387CAC9025B} = {AF4844AD-82D4-4049-80A8-AE8D49494DAD}
+		{4E3E5DBE-6F9B-45D7-B8B6-433759DD330A} = {36C4FB48-86F0-4B1F-A146-E782BE27D8ED}
+		{659F24BF-220A-43FF-8F47-FED4E33E85A1} = {36C4FB48-86F0-4B1F-A146-E782BE27D8ED}
+		{82AF83E1-482C-4BA8-9794-350128841991} = {61121EB9-E33C-42BA-B37E-107E95787958}
+	EndGlobalSection
+EndGlobal
